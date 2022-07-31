@@ -13,7 +13,7 @@ const MovieItem = ({ id, title, path }) => {
       <ItemMovie>
         <MovieLink to={`/movies/${id}`}>
           <h3>{title}</h3>
-          <MovieImg src={poster} src={path ? poster : defaultImg} alt={title} />
+          <MovieImg src={path ? poster : defaultImg} alt={title} />
         </MovieLink>
       </ItemMovie>
     </>
